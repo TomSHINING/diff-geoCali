@@ -1,0 +1,100 @@
+{
+  "snapshot_date": "2026-10-08",
+  "version": "0.1.0",
+  "selection": "Active imports and calls in current reconstruction/calibration scripts",
+  "backprojection_mathematical_kernels_unchanged": true,
+  "forward_projection_cuda_unchanged": true,
+  "upstream_files": [
+    {
+      "path": "Differenential_forward/src_cbct_backprojector_cuda.cu",
+      "sha256": "6d4dca2258459da05e3f92b2def732978367307ef103b07c0901da5e76901cd5",
+      "modified_at": "2026-08-08T19:03:06.444134+08:00"
+    },
+    {
+      "path": "Differenential_forward/src_cbct_forwardprojector_cuda.cu",
+      "sha256": "5b1925e8505da9cf45e9e153ed7fdca92dd2b371faac748c2eaed1f591dc2c38",
+      "modified_at": "2026-08-08T21:08:42.206493+08:00"
+    },
+    {
+      "path": "Differenential_forward/source_only_forward_projector.py",
+      "sha256": "3b0e19d0275027583dde84ec0a524bd303057c938bb2e88797542c189184ce50",
+      "modified_at": "2026-08-08T21:27:01.991298+08:00"
+    },
+    {
+      "path": "Differenential_forward/selfsupervised_calibration_entropy_2stage.py",
+      "sha256": "d6ccfbdaa834e6fe3d5128dd62af701a1d6f17238d9d6a97372b99ae08fb46f3",
+      "modified_at": "2026-09-21T21:38:55.969493+08:00"
+    },
+    {
+      "path": "Differenential_forward/selfsupervised_calibration_PBGD_Free_Simulation.py",
+      "sha256": "39e72c193c2fefc68a8aa387437bc833e6064eefb5e09224d111d5604de4a976",
+      "modified_at": "2026-09-22T09:45:32.089774+08:00"
+    }
+  ],
+  "packaged_sources": [
+    {
+      "path": "cbct_backprojector/__init__.py",
+      "sha256": "387a895c2cee12107fb4358e35b5761031c4ccc500465ba038af4635bbf7ba26"
+    },
+    {
+      "path": "cbct_backprojector/filtering.py",
+      "sha256": "bf900d79ec798dd225d98cfeb138f9ecb8d653e1c662f36eb45c8f9f5689f030"
+    },
+    {
+      "path": "cbct_backprojector/operator.py",
+      "sha256": "42dea48168a50d48c7b546e1671ffc31616a6463295b73f47fe9634df96a1b1a"
+    },
+    {
+      "path": "cbct_backprojector/source_only_forward_projector.py",
+      "sha256": "ecf2170489f83b040c541e000b34a28c0d1f8ae270f7f83db2519db7dabc0d1b"
+    },
+    {
+      "path": "csrc/src_cbct_backprojector_cuda.cu",
+      "sha256": "a6da6432c336b5943423a5d0f23aa1bd7cd18d334ae748b699e2e9ef2194cfa2"
+    },
+    {
+      "path": "csrc/src_cbct_forwardprojector_cuda.cu",
+      "sha256": "5b1925e8505da9cf45e9e153ed7fdca92dd2b371faac748c2eaed1f591dc2c38"
+    },
+    {
+      "path": "examples/autograd.py",
+      "sha256": "260b02da8f21deb0f7ac85dfb2383a664a125e97effb57ab64db2f063fa97672"
+    },
+    {
+      "path": "examples/basic.py",
+      "sha256": "49046528428e8667e267f5a4e6353b6fee071413953091fefdd01566b621a8aa"
+    },
+    {
+      "path": "examples/check_forward_operator.py",
+      "sha256": "343ba4b02861d8bb6aef844528ac69941b5a49b85f682dbdc8967b3d15b7d396"
+    },
+    {
+      "path": "examples/check_operator.py",
+      "sha256": "29a49db8094d89089e608bba9eccd0e8dc6b3e8065cc257ce28df408d64ef4d6"
+    },
+    {
+      "path": "examples/fdk.py",
+      "sha256": "e7e2b2508b20a35d90e3032d6d555467bdf509e1c7cf3ca27d940b5c3cb140d3"
+    },
+    {
+      "path": "examples/forward.py",
+      "sha256": "6b28eb67d9d3ce37b26fa65c3974e9aba08e939e2beb742203cad2f6d2f991f5"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "11dcabbccd824035d306431d6cd3f02a06359cc4c5971c57414392203c73ba73"
+    },
+    {
+      "path": "setup.py",
+      "sha256": "cbcf77d89868494aebcc4680ece761205e5fbc94755cd522fce233b6d2b21330"
+    },
+    {
+      "path": "source_only_forward_projector.py",
+      "sha256": "8df464c7e0d999fa2d92016b433120272bab911bff7878ad0a8128bf7cc744a4"
+    },
+    {
+      "path": "tools/package_source.py",
+      "sha256": "5350245452c495389c5f210d4cfdf3643c01e387980e52cbf803a4d09991fc9c"
+    }
+  ]
+}
